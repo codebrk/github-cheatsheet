@@ -148,14 +148,6 @@ section h4 a {
 }
 
 @media (max-width: 660px) {
-    header .desktop-nav {
-        display: none;
-    }
-    header .mobile-nav-bar {
-        display: block;
-        line-height: 60px;
-        font-size: 2rem;
-    }
     header nav:after {
         content: '';
         display: table;
