@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Codebreak</title>
+    <title>Github Cheatsheet</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/skeleton.css">
@@ -27,9 +27,35 @@
         </nav>
     </header>
 
-    <section>
+    <section id="top">
         <div class="container"><div class="row"><div class="twelve columns">
-            <h4>Push Your Project to GitHub</h4>
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="#configure-git-locally">Configure git locally</a></li>
+                <li><a href="#push-your-project-to-github">Push Your Project to Github</a></li>
+                <li><a href="#issues">Issues</a></li>
+                <li><a href="#create-a-branch">Create a Branch</a></li>
+                <li><a href="#open-a-pull-request">Open a Pull Request</a></li>
+            </ul>
+        </div></div></div>
+    </section>
+
+    <section id="configure-git-locally">
+        <div class="container"><div class="row"><div class="twelve columns">
+            <h4>Configure git locally <a href="#top">#TO TOP</a></h4>
+            <p><strong>Git Commands:</strong></p>
+            <ul>
+                <li><strong>git --version</strong>: see installed git version</li>
+                <li><strong>git config --list</strong>: see your configuration list for current repo or global</li>
+                <li><strong>git config --global user.name "your_username"</strong>: set git username</li>
+                <li><strong>git config --global user.name "your_email@mail.com"</strong>: set git email</li>
+            </ul>
+        </div></div></div>
+    </section>
+
+    <section id="push-your-project-to-github">
+        <div class="container"><div class="row"><div class="twelve columns">
+            <h4>Push Your Project to GitHub <a href="#top">#TO TOP</a></h4>
             <p><strong>Git Commands:</strong></p>
             <ul>
                 <li><strong>git init</strong>: initialize a git repository in your directory</li>
@@ -43,6 +69,42 @@
         </div></div></div>
     </section>
 
+
+    <section id="issues">
+        <div class="container"><div class="row"><div class="twelve columns">
+            <h4>Issues <a href="#top">#TO TOP</a></h4>
+            <p>Issues can be anything you like, if you are the owner of the repo then it can be your todo list. The issue will be open until you close</p>
+            <p><img src="https://user-images.githubusercontent.com/37883010/38093534-a22cfa56-33ae-11e8-8039-a6cd97541fc2.png" alt="screenshot from 2018-03-30 00-08-59" /></p>
+            <p><img src="https://user-images.githubusercontent.com/37883010/38093703-180d4b0e-33af-11e8-9426-8b25f1dfdb14.png" alt="screenshot from 2018-03-30 00-12-44" /></p>
+        </div></div></div>
+    </section>
+
+
+    <section id="create-a-branch">
+        <div class="container"><div class="row"><div class="twelve columns">
+            <h4>Create a Branch <a href="#top">#TO TOP</a></h4>
+            <p><strong>Git Commands:</strong></p>
+            <ul>
+                <li><strong>git branch</strong>: list out branches</li>
+                <li><strong>git branch branch-name</strong>: create a new branch</li>
+                <li><strong>git checkout branch-name</strong>: switch to the newly created branch</li>
+                <li><strong>git checkout -b branch-name</strong>: shortcut! - use this command to create &amp; switch to the new branch</li>
+                <li><strong>git push origin branch-name</strong>: push branch &amp; changes to github</li>
+            </ul>
+        </div></div></div>
+    </section>
+
+    <section id="open-a-pull-request">
+        <div class="container"><div class="row"><div class="twelve columns">
+            <h4>Open a Pull Request <a href="#top">#TO TOP</a></h4>
+            <p><img src="https://user-images.githubusercontent.com/37883010/38094403-fcd70ecc-33b0-11e8-935e-23ac8d50d916.png" alt="screenshot from 2018-03-30 00-26-11" /></p>
+            <p><img src="https://user-images.githubusercontent.com/37883010/38094478-3428cc26-33b1-11e8-8f45-916cbc2888d1.png" alt="screenshot from 2018-03-30 00-27-51" /></p>
+
+            <p>A pull request typically used as a discussion about the changes being made to the repository</p>
+
+            <p><img src="https://user-images.githubusercontent.com/37883010/38094594-8d7f462e-33b1-11e8-8294-0cffed70aef8.png" alt="screenshot from 2018-03-30 00-30-20" /></p>
+        </div></div></div>
+    </section>
     
 </body>
 </html>
